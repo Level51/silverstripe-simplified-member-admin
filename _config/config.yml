@@ -1,0 +1,25 @@
+---
+Name: simplified-member-admin
+---
+Member:
+  extensions:
+    - lvl51\sma\MemberExtension
+
+SecurityAdmin:
+  extensions:
+    - lvl51\sma\SecurityAdminExtension
+
+lvl51\sma\SimplifiedMemberAdmin:
+  disable_export: true
+  disable_print: true
+  remove_member_fields:
+    - LastVisited
+    - Locale
+    - DateFormat
+    - TimeFormat
+    - Permissions
+    - FailedLoginCount
+    - RegisterHash
+    - RegisterExpired
+    - State
+    - StateChanged

@@ -1,0 +1,25 @@
+{
+    "name": "level51/silverstripe-simplified-member-admin",
+    "version": "0.1.0",
+    "time": "2018-08-20",
+    "description": "Simplified member admin for SilverStripe replacing the default SecurityAdmin",
+    "keywords": [
+        "silverstripe"
+    ],
+    "type": "silverstripe-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Kliemsch",
+            "email": "dk@lvl51.de"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "silverstripe/framework": "~3.5"
+    },
+    "extra": {
+        "installer-name": "simplified-member-admin"
+    },
+    "minimum-stability": "dev"
+}
